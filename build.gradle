@@ -1,0 +1,43 @@
+plugins {
+	id 'org.springframework.boot' version "$springbootVersion"
+	id 'io.spring.dependency-management' version "$springDependencyVersion"
+	id "org.sonarqube" version "$sonarqubeVersion"
+	id "com.diffplug.gradle.spotless" version "$spotlessVersion" apply false
+	id 'java'
+}
+
+apply from: "$rootDir/plugins/jacoco.gradle"
+apply from: "$rootDir/plugins/sonarqube.gradle"
+apply from: "$rootDir/plugins/lint.gradle"
+
+group = 'com.microservice'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-mail'
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	compileOnly 'org.projectlombok:lombok'
+	runtimeOnly 'org.postgresql:postgresql'
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.mockito:mockito-core:3.11.2'
+	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+test {
+	useJUnitPlatform()
+}
