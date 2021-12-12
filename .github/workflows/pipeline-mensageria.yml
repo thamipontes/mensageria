@@ -2,9 +2,9 @@ name: Build
 
 on:
   push:
-    branches:
-      - master
+    branches: [ main ]
   pull_request:
+    branches: [ main ]
     types:
       - opened
       - synchronize
@@ -12,10 +12,8 @@ on:
 
 jobs:
   build:
-
     name: Build
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
         with:
@@ -36,8 +34,13 @@ jobs:
           path: ~/.sonar/cache
           key: ${{ runner.os }}-sonar
           restore-keys: ${{ runner.os }}-sonar
+      - name: Start containers
+        run: docker-compose -f "docker-compose.yml" up -d --build
       - name: Build and analyze
         run: ./gradlew build jacocoTestReport sonarqube --info
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      - name: Stop containers
+      if: always()
+      run: docker-compose -f "docker-compose.yml" down

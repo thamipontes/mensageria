@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: scripts/createDatabase.sql
+      relativeToChangelogFile: true
+
+
+
