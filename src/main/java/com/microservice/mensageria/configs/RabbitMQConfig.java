@@ -13,14 +13,12 @@ public class RabbitMQConfig {
     private String queue;
 
     @Bean
-    public Queue queue(){
+    public Queue queue() {
         return new Queue(queue, true);
     }
 
     @Bean
-    public Jackson2JsonMessageConverter messageConverter(){
+    public Jackson2JsonMessageConverter messageConverter() {
         return new Jackson2JsonMessageConverter();
     }
-
-
 }

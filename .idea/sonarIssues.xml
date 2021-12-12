@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/gradle.properties">
           <value>
             <set />
@@ -18,12 +23,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/.github/workflows/gradle.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/.github/workflows/pipeline-mensageria.yml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app.py">
           <value>
             <set />
           </value>
@@ -114,6 +129,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/resources/db.changelog/db.changelog-master.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/db.changelog/db.changelog-master.yaml">
           <value>
             <set />
           </value>

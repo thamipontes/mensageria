@@ -1,12 +1,11 @@
 package com.microservice.mensageria.dtos;
 
 import com.microservice.mensageria.enums.StatusEmail;
-import lombok.Getter;
-import lombok.Setter;
-
+import java.time.LocalDateTime;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
-import java.time.LocalDateTime;
+import lombok.Getter;
+import lombok.Setter;
 
 @Getter
 @Setter
@@ -31,5 +30,4 @@ public class EmailDTO {
 
     private LocalDateTime dataEnvio;
     private StatusEmail statusEmail;
-
 }
