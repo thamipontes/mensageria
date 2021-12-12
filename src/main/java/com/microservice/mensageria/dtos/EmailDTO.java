@@ -4,7 +4,6 @@ import com.microservice.mensageria.enums.StatusEmail;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.Column;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import java.time.LocalDateTime;
@@ -28,11 +27,9 @@ public class EmailDTO {
     private String assunto;
 
     @NotBlank
-    private LocalDateTime dataEnvio;
+    private String texto;
 
-    @NotBlank
+    private LocalDateTime dataEnvio;
     private StatusEmail statusEmail;
 
-    @NotBlank
-    private String texto;
 }
