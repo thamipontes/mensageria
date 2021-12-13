@@ -1,0 +1,20 @@
+apply plugin: "org.liquibase.gradle"
+
+def props = new Properties()
+file("src/main/resources/liquibase.properties").withInputStream { props.load(it) }
+
+diff.dependsOn compileJava
+diffChangeLog.dependsOn compileJava
+
+liquibase {
+    activities {
+        main {
+            changeLogFile props.getProperty("liquibase.changelog.main")
+            referenceUrl 'hibernate:spring:com.microservice.mensageria.model?dialect=org.hibernate.dialect.PostgreSQLDialect&hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy&hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy'
+            url props.getProperty("spring.datasource.url")
+            username props.getProperty("spring.datasource.username")
+            password props.getProperty("spring.datasource.password")
+            referenceDriver 'com.postgresql.jdbc.Driver'
+        }
+    }
+}

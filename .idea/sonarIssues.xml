@@ -3,12 +3,47 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/gradle.properties">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/plugins/sonarqube.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/src/main/java/com/example/folha/FolhaApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/src/main/java/com/example/folha/dto/UsuarioDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/src/main/java/com/example/folha/repository/UsuariosRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/src/main/java/com/example/folha/resource/UsuarioResource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/src/main/java/com/example/folha/resource/mensageriaClient.java">
           <value>
             <set />
           </value>
@@ -29,6 +64,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/build/bootJarMainClassName">
           <value>
             <set />
           </value>
@@ -83,7 +123,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/microservice/mensageria/controllers/UsuarioClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/microservice/mensageria/dtos/EmailDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/microservice/mensageria/dtos/UsuarioDTO.java">
           <value>
             <set />
           </value>
