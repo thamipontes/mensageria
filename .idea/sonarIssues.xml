@@ -3,12 +3,72 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$PROJECT_DIR$/../eureka/EurekaClient/src/main/resources/application.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../eureka/eurekaService/src/main/java/com/example/eurekaService/EurekaServiceApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../eureka/eurekaService/src/main/resources/application.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/gradle.properties">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/plugins/sonarqube.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/sonarqube-mysql.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/src/main/java/com/example/folha/FolhaApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/src/main/java/com/example/folha/dto/UsuarioDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/src/main/java/com/example/folha/entity/Usuario.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/src/main/java/com/example/folha/resource/UsuarioResource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/src/main/java/com/example/folha/security/WebSecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/src/main/java/com/example/folha/service/UsuarioService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/src/main/resources/application.yaml">
           <value>
             <set />
           </value>
@@ -68,7 +128,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/microservice/mensageria/configs/EurekaClientApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/microservice/mensageria/configs/GreetingController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/microservice/mensageria/configs/RabbitMQConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/microservice/mensageria/configs/UsuarioClientConfig.java">
           <value>
             <set />
           </value>
@@ -83,12 +158,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/microservice/mensageria/controllers/UsuarioClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/microservice/mensageria/dtos/EmailDTO.java">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/microservice/mensageria/dtos/UsuarioDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/microservice/mensageria/enums/StatusEmail.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/microservice/mensageria/exception/GlobalExceptionHandler.java">
           <value>
             <set />
           </value>
