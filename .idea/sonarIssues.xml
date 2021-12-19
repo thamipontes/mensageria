@@ -8,12 +8,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../eureka/Procfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../eureka/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../eureka/eurekaService/src/main/java/com/example/eurekaService/EurekaServiceApplication.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../eureka/eurekaService/src/main/resources/application.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../eureka/src/main/resources/application.yaml">
           <value>
             <set />
           </value>
@@ -69,6 +84,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/src/main/resources/application.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/src/main/resources/liquibase.properties">
           <value>
             <set />
           </value>
