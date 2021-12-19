@@ -25,7 +25,7 @@ public class Email implements Serializable {
 
     private String proprietario;
     private String emailFrom;
-    private String emailTo;
+    private String emailPara;
     private String assunto;
     private LocalDateTime dataEnvio;
     private StatusEmail statusEmail;

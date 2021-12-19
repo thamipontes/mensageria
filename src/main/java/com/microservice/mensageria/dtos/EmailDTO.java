@@ -20,7 +20,7 @@ public class EmailDTO {
 
     @NotBlank
     @Email
-    private String emailTo;
+    private String emailPara;
 
     @NotBlank
     private String assunto;

@@ -28,7 +28,7 @@ public class EmailService {
             SimpleMailMessage simpleMailMessage = new SimpleMailMessage();
 
             simpleMailMessage.setFrom(emailDTO.getEmailFrom());
-            simpleMailMessage.setTo(emailDTO.getEmailTo());
+            simpleMailMessage.setTo(emailDTO.getEmailPara());
             simpleMailMessage.setSubject(emailDTO.getAssunto());
             simpleMailMessage.setText(emailDTO.getTexto());
             emailSender.send(simpleMailMessage);
