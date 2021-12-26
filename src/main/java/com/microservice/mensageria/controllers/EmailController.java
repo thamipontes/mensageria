@@ -45,10 +45,10 @@ public class EmailController {
             EmailDTO emailDTO = new EmailDTO();
             emailDTO.setEmailPara(emailUsuario);
             emailDTO.setAssunto("Sua conta foi criada!");
-            emailDTO.setTexto("Parabéns, sua conta foi criada no meu projetinho Folha de Ponto! " +
-                    "Dúvidas sobre o projeto acesse meu GitHub:" +
-                    "Backend:  https://github.com/thamipontes/folhaPonto" +
-                    "Frontend: https://github.com/thamipontes/folha-ponto-frontend" +
+            emailDTO.setTexto("Parabéns, sua conta foi criada no meu projetinho Folha de Ponto! \n" +
+                    "Dúvidas sobre o projeto acesse meu GitHub:\n" +
+                    "Backend:  https://github.com/thamipontes/folhaPonto\n" +
+                    "Frontend: https://github.com/thamipontes/folha-ponto-frontend\n" +
                     "Mensageria: https://github.com/thamipontes/mensageria");
             emailDTO.setEmailFrom("microservice.socorro@gmail.com");
             emailService.enviaEmail(emailDTO);
