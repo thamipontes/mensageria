@@ -29,7 +29,7 @@ public class EmailController {
         try {
             List<UsuarioDTO> usuarioDTO = usuarioClient.pegarTodosUsuarioClient();
             usuarioDTO.forEach(usuario -> {
-                emailDTO.setProprietario(usuario.getNomeCompleto());
+                emailDTO.setEmailPara(usuario.getEmail());
                 emailService.enviaEmail(emailDTO);
             });
             return new ResponseEntity<>(usuarioDTO, HttpStatus.OK);
