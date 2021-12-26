@@ -18,8 +18,8 @@ public class EmailDTO {
     @Email
     private String emailFrom;
 
-    @NotBlank
     @Email
+    @NotBlank
     private String emailPara;
 
     @NotBlank

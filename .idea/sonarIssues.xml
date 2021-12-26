@@ -73,6 +73,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/src/main/java/com/example/folha/security/CorsConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../folhaPonto/folhaPonto/src/main/java/com/example/folha/security/WebSecurityConfig.java">
           <value>
             <set />

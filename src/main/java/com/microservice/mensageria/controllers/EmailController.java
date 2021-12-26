@@ -38,4 +38,24 @@ public class EmailController {
         }
         return null;
     }
+
+    @PostMapping("/envia-email-registro")
+    public ResponseEntity<?> enviaEmailUsuarioRegistro(@RequestBody @Valid String emailUsuario) {
+        try {
+            EmailDTO emailDTO = new EmailDTO();
+            emailDTO.setEmailPara(emailUsuario);
+            emailDTO.setAssunto("Sua conta foi criada!");
+            emailDTO.setTexto("Parabéns, sua conta foi criada no meu projetinho Folha de Ponto! " +
+                    "Dúvidas sobre o projeto acesse meu GitHub:" +
+                    "Backend:  https://github.com/thamipontes/folhaPonto" +
+                    "Frontend: https://github.com/thamipontes/folha-ponto-frontend" +
+                    "Mensageria: https://github.com/thamipontes/mensageria");
+            emailDTO.setEmailFrom("microservice.socorro@gmail.com");
+            emailService.enviaEmail(emailDTO);
+            return new ResponseEntity<>(emailDTO, HttpStatus.OK);
+        } catch (FeignException e) {
+            log.error(e.getMessage());
+        }
+        return null;
+    }
 }
